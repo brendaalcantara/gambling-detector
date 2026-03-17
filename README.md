@@ -142,6 +142,15 @@ Output: probabilities `[gambling, safe]` (float32, shape `[1, 2]`)
 
 See `common.py` for the reference implementation of `preprocess_domain`, `extract_char_ngrams`, `compute_features`, and `tokenize`.
 
+## Intended Use & Ethical Guidelines
+
+This project is designed for **protective and compliance purposes**:
+
+- **Intended uses:** Parental controls, DNS filtering, corporate network policies, browser extensions that block or warn about gambling content, support for responsible gambling, and compliance in jurisdictions where online gambling is restricted.
+- **Not intended for:** Facilitating access to gambling sites, marketing to gamblers, or any use that promotes or enables gambling.
+
+The software is provided under the MIT license. The MIT license includes a **warranty disclaimer** and **limitation of liability** — the authors are not responsible for misuse or damages arising from the use of this software. Use at your own discretion and in accordance with applicable laws.
+
 ## License
 
 [MIT](LICENSE)
